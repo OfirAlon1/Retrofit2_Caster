@@ -14,7 +14,7 @@ import zemingo.com.retrofit_caster.response.Chicago;
 import zemingo.com.retrofit_caster.response.Result;
 import zemingo.com.retrofit_caster.retrofit_objects.Book;
 
-public interface MapsService
+public interface MapsService //github project
 {
     @GET("/maps/api/geocode/json?address=Chicago")
     Call<Result> getChicago();
